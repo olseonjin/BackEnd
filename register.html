@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <header>
+        <ul class="header-ul">
+            <li class="header-li"><a href="index.html"><span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px;">iNergy</span></a></li>
+            <li class="header-li">마이페이지</li>
+            <li class="header-li">주문 조회</li>
+            <li class="header-li">최근 본 상품</li>
+            <li class="header-li"><a href="login.html">로그인</a></li>
+            <li class="header-li" style="border-style: none;"><a href="board.html">고객센터</a></li>
+        </ul>
+    </header>
+    <div class="main-contanier">
+        <h1><span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 37px;">iNergy</span> ID 생성</h1>
+        <p>하나의 iNergy ID로 모든 iNergy 서비스를 이용할 수 있습니다.</p>
+        <div class="form-container">
+            <form method = "post" action = "login.html">
+                <div class="namebox">
+                    <input class="userID" type="text" placeholder="아이디" maxlength="3" required>
+                </div>
+                <div class="emailpwd">
+                    <input class="userPassword" type="passWord" placeholder="비밀번호" maxlength="20" required>
+                    <input class="userName" type="text" placeholder="이름" maxlength="20" required>
+                    <input class="userGender" type="text" placeholder="성별" maxlength="20" required>
+                    <input class="userEmail" type="email" placeholder="이메일" required>
+                </div>
+                <div class="submit">
+                    <input class="btn" type="submit" name="submit" value="→">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>Copyright © 2024 iNergy. ALL rights reserved.</p>
+            <p>상호 : iNergy <span style="color: #00000050;">|</span> 대표자명 : 정진우</p>
+            <p>연락처 : 010-1313-2424 <span style="color: #00000050;">|</span> 팩스 : 001-2525-3232 <span style="color: #00000050;">|</span> 이메일 : iNergy.gmail.com</p>
+            <p>주소 : (47230) 부산광역시 부산진구 양지로 54</p>
+        </div>
+    </footer>
+</body>
+</html>
